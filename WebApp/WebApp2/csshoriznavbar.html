@@ -24,15 +24,56 @@
           
            }
            li a:hover{background-color:antiquewhite}
+           .flex-container
+           {
+            display: flex;
+           }
+           .flex-container>div
+           {
+            margin: 10px;
+            padding: 20px;
+            font-size: 30px;
+           }
+           .img
+           {
+            width: 70%;
+            height:90%;
+           }
+           .img:active
+           {
+            
+             box-shadow: 1px 1px 1px 1px black;
+             /* box-sizing: 1px; */
+           }
+           
         </style>
     </head>
     <body>
         <ul>
             <li><a href="">Home</a></li>
-            <li><a href="">Products</a></li>
+            <li><a href="#products">Products</a></li>
             <li><a href="">Login</a></li>
             <li><a href="">Register</a></li>
         </ul>
         <img src="images/c1.jpeg" alt="">
+        <center>
+            <h1>Fruits and Vegetables</h1>
+            <hr/>
+            <div class="flex-container">
+               <div><img src="images/f1.jpeg" alt="" class="img"></div>
+               <div><img src="images/f2.jpeg" alt="" class="img"></div>
+               <div><img src="images/f3.jpeg" alt="" class="img"></div>
+            </div>
+        </center>
+        <center>
+            <h1>Banks</h1>
+            <hr/>
+            <div class="flex-container">
+               <div><img src="images/b1.jpeg" alt="" class="img"></div>
+               <div><img src="images/b2.jpeg" alt="" class="img"></div>
+               <div><img src="images/b3.jpeg" alt="" class="img"></div>
+               <div><img src="images/b4.jpeg" alt="" class="img"></div>
+            </div>
+        </center>
     </body>
 </html>
