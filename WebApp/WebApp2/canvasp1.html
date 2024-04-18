@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <canvas id="my1" width="200" height="100" style="border: 1px solid;">
+           
+        </canvas>
+        <script>
+            const canvas=document.getElementById("my1");
+            const ctx=canvas.getContext('2d');
+            //create a rectangle to draw on the canvas
+             let rect = {
+                 x : 35,
+                 y : 45,
+                 w : 100,
+                 h : 60
+             }
+              //drawing the rectangle using fillRect() method
+               ctx.fillStyle='blue';//color
+                ctx.fillRect(rect.x,rect.y,rect.w,rect.h)
+                 
+                                
+        </script>
+    </body>
+</html>
